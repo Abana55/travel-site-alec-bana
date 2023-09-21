@@ -1,0 +1,113 @@
+* {
+    font-family: Verdana;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    display: flex;
+}
+.navi {
+    background-color: #FFFFFF;
+    flex-direction: row;
+    align-items: center;
+    height: 3.75rem;
+    top: 0;
+    position: sticky;
+    width: 100%;
+}
+
+.navi__title {
+    color: #335576;
+    display: flex;
+    margin-left: 4rem;
+}
+
+.navi__link {
+    list-style: none;
+    text-decoration: none;
+}
+
+.navi__destinations {
+    display: flex;
+    margin-left: auto;
+    list-style: none;  
+    margin-right: 4rem; 
+}
+
+.navi__destinations--li {
+    list-style: none;
+    padding: .625rem;
+}
+.border-color {
+    border-bottom: .25rem solid #DB7A4E;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.foot {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 4rem 3rem;
+    background-color: #FEFAF5;
+}
+.foot__section-title {
+    color: #335576;
+    font-size: 1.5rem;
+    padding-bottom: 1.5rem;
+
+}
+.foot__contact {
+   padding-left: 4rem;
+   padding-right: 2rem;
+}
+/*.foot__contact-list {
+    
+}*/
+.foot__contact-info {
+    list-style: none;
+}
+ .foot__hours {
+    flex-direction: row;
+    display: flex;
+
+}
+
+.foot__time--column {
+    flex-direction: column;
+    display: flex;
+    
+}
+.foot__day-times {
+    list-style: none;
+
+}
+.foot__dates {
+    color:#DB7A4E;
+    font-size: .6rem;
+    padding-bottom: 1rem;
+}
+.foot__time--blue {
+    color: #335576;
+    padding-right: 1rem;
+} 
+.foot__social {
+    color: #335576;
+   
+
+}
+.foot__img-size {
+    height: 1.5625rem;
+
+}

@@ -1,0 +1,182 @@
+.navi {
+    background-color: #FFFFFF;
+    flex-direction: row;
+    align-items: center;
+    height: 3.75rem;
+    top: 0;
+    position: sticky;
+    width: 100%;
+}
+
+.navi__title {
+    color: #335576;
+    display: flex;
+    margin-left: 4rem;
+}
+
+.navi__link {
+    list-style: none;
+    text-decoration: none;
+}
+
+.navi__destinations {
+    display: flex;
+    margin-left: auto;
+    list-style: none;  
+    margin-right: 4rem; 
+}
+
+.navi__destinations--li {
+    list-style: none;
+    padding: .625rem;
+}
+.border-color {
+    border-bottom: .25rem solid #DB7A4E;
+}
+
+.inviter {
+    background-color: #FEFAF5;
+    flex-direction: row;
+    display: flex;
+    padding: 6rem;
+    align-items: center;
+    justify-content: center;
+
+}
+.inviter__slogan {
+    padding-bottom: 1.5rem;
+
+}
+.inviter__slogan--motto {
+    color: #335576;
+    font-size: 2.25rem;
+    padding-bottom: 1.5rem;
+    width: 80%;
+}
+.small-font {
+    font-size: .9rem;
+}
+.inviter__slogan--button {
+    background-color: #DB7A4E;
+    color: white;
+    border-radius: 1rem;
+    padding: .5rem 2rem .5rem 2rem;
+    border-color: #DB7A4E;
+    border-style: none;
+}
+.inviter__img {
+    height: 25rem;
+}
+.recommended--border {
+    padding-bottom: 3rem;
+}
+
+.recommended {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.recommended__title {
+    margin-left: 4rem;
+    color: #335576;
+    font-size: 1.75rem;
+    padding: 3rem;
+}
+.recommended__anchor {
+    list-style: none;
+    text-decoration: none;
+    /* display: flex;
+    flex-direction: row; */
+}
+
+ /* need to make the border glisten */
+.recommended__spot{    
+    background-color: white;
+    width: 16.875rem;
+    height: 24rem;
+    padding: 1.25rem;
+    margin: 20px;
+    border-radius: 5px;
+    border-color: 1px black 20%;
+    box-shadow: 0px 4px 4px 20%;
+    overflow: hidden;
+    display: flex;
+    background-size: 100%;
+    align-items: end;
+    flex-direction: row;
+    justify-content: end;
+    
+}
+.recommended__spot--color {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: end,right;
+}
+.hawaii__pic {
+    background-image: url(/assets/Images/hawaii.jpg);
+    
+}
+.iceland__pic {
+    background-image: url(/assets/Images/iceland.jpg);
+}
+.greece__pic {
+    background-image: url(/assets/Images/greece.jpg)
+}
+
+.foot {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 4rem 3rem;
+}
+.foot__section-title {
+    color: #335576;
+    font-size: 1.5rem;
+    padding-bottom: 1.5rem;
+
+}
+.foot__contact {
+   padding-left: 4rem;
+   padding-right: 2rem;
+}
+/*.foot__contact-list {
+    
+}*/
+.foot__contact-info {
+    list-style: none;
+}
+ .foot__hours {
+    flex-direction: row;
+    display: flex;
+
+}
+
+.foot__time--column {
+    flex-direction: column;
+    display: flex;
+    
+}
+.foot__day-times {
+    list-style: none;
+
+}
+.foot__dates {
+    color:#DB7A4E;
+    font-size: .6rem;
+    padding-bottom: 1rem;
+}
+.foot__time--blue {
+    color: #335576;
+    padding-right: 1rem;
+} 
+.foot__social {
+    color: #335576;
+   
+
+}
+.foot__img-size {
+    height: 1.5625rem;
+
+}
