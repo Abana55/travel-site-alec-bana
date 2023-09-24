@@ -15,6 +15,7 @@ nav {
     top: 0;
     position: sticky;
     width: 100%;
+    text-decoration: none;
 }
 
 .navi__title {
@@ -27,12 +28,16 @@ nav {
     list-style: none;
     text-decoration: none;
 }
+.navi__anchor {
+    text-decoration: none;
+}
 
 .navi__destinations {
     display: flex;
     margin-left: auto;
     list-style: none;  
     margin-right: 4rem; 
+    text-decoration: none;
 }
 
 .navi__destinations--li {
@@ -77,6 +82,13 @@ nav {
 }*/
 .foot__contact-info {
     list-style: none;
+    color: #DB7A4E;
+    padding-bottom: 8px;
+}
+.foot__contact-email {
+    list-style: none;
+    color: #335576;
+
 }
  .foot__hours {
     flex-direction: row;
@@ -104,10 +116,10 @@ nav {
 } 
 .foot__social {
     color: #335576;
-   
 
+   
 }
 .foot__img-size {
     height: 1.5625rem;
-
+    padding-right: 12px;
 }

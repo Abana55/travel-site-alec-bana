@@ -8,31 +8,33 @@
     <link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
+<header>
     <nav class="navi">
         <a class="navi__link" href="/index.html"><h2 class="navi__title">Travel Site</h2></a>
         <ul class="navi__destinations">
-            <a href="/index.html"><li class="navi__destinations--li border-color">Home</li></a>
-            <a href="/pages/hawaii.html"><li class="navi__destinations--li">Hawaii</li></a>
-            <a href="/pages/iceland.html"><li class="navi__destinations--li">Iceland</li></a>
-            <a href="/pages/greece.html"><li class="navi__destinations--li">Greece</li></a>
+            <a class="navi__anchor" href="/index.html"><li class="navi__destinations--li border-color">Home</li></a>
+            <a class="navi__anchor" href="/pages/hawaii.html"><li class="navi__destinations--li">Hawaii</li></a>
+            <a class="navi__anchor" href="/pages/iceland.html"><li class="navi__destinations--li">Iceland</li></a>
+            <a class="navi__anchor" href="/pages/greece.html"><li class="navi__destinations--li">Greece</li></a>
         </div>
     </nav>
 
-    <header class="inviter">
+    <section class="inviter">
         <article class="inviter__slogan">
             <h1 class="inviter__slogan--motto">Traveling Comes With Endless Discoveries</h1>
             <p class="inviter__slogan--motto small-font">Don't let your dreams be just dreams. Experience the world by booking a vacation with us now.</p>
-            <a href=""><button class="inviter__slogan--button">Get Started</button></a>
+            <a href="#recommended"><button class="inviter__slogan--button">Get Started</button></a>
         </article>
             
         <aside>
             <img class="inviter__img" src="/assets/Images/hero.png">
         </aside>
-    </header>
+    </section>
+</header>
     <section class="recommended--border">
-    <h2 class="recommended__title">Recommendations</h2> 
+    <h2 #destinations class="recommended__title">Recommendations</h2> 
 
-        <section class="recommended">
+        <section id="recommended" class="recommended">
             
             <a class="recommended__anchor" href="/pages/hawaii.html">
                 <div class="recommended__spot hawaii__pic">
@@ -57,7 +59,7 @@
             <h3 class="foot__section-title">Contact</h3>
                 <ul class="foot__contact-list">
                     <li class="foot__contact-info">email</li>
-                    <li class="foot__contact-info">info@travelsite.com</li>
+                    <li class="foot__contact-email">info@travelsite.com</li>
                 </ul>
         </section>
         
@@ -87,9 +89,9 @@
 
         <section class="foot__social">
             <h3 class="foot__section-title">Social</h3>
-                <img class="foot__img-size" src="/assets/Icons/icon-instagram.png">
-                <img class="foot__img-size" src="/assets/Icons/icon-facebook.png">
-                <img class="foot__img-size" src="/assets/Icons/icon-twitter.png">
+                <a href="https://www.instagram.com"><img class="foot__img-size" src="/assets/Icons/icon-instagram.png"></a>
+                <a href="https://www.facebook.com"><img class="foot__img-size" src="/assets/Icons/icon-facebook.png"></a>
+                <a href="https://twitter.com/"><img class="foot__img-size" src="/assets/Icons/icon-twitter.png"></a>
         </section>
 
     </footer>

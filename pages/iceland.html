@@ -5,50 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>travel-site-iceland</title>
     <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" href="/css/destintation.css">
 </head>
 <body>
+    <header>
     <nav class="navi">
         <a class="navi__link" href="/index.html"><h2 class="navi__title">Travel Site</h2></a>
         <ul class="navi__destinations">
-            <a href="/index.html"><li class="navi__destinations--li border-color">Home</li></a>
-            <a href="/pages/hawaii.html"><li class="navi__destinations--li">Hawaii</li></a>
-            <a href="/pages/iceland.html"><li class="navi__destinations--li">Iceland</li></a>
-            <a href="/pages/greece.html"><li class="navi__destinations--li">Greece</li></a>
+            <a class="navi__anchor" href="/index.html"><li class="navi__destinations--li">Home</li></a>
+            <a class="navi__anchor" href="/pages/hawaii.html"><li class="navi__destinations--li">Hawaii</li></a>
+            <a class="navi__anchor" href="/pages/iceland.html"><li class="navi__destinations--li border-color">Iceland</li></a>
+            <a class="navi__anchor" href="/pages/greece.html"><li class="navi__destinations--li">Greece</li></a>
         </div>
     </nav>
-
-
-    <section class="recommended--border">
-        <h2 class="recommended__title">Iceland</h2> 
+    </header>
+    <main>
+        <section class="iceland-bkg">
+            <h2 class="title__card">Iceland</h2>
+            <section class="itinerary__cards">
+                <section class="itinerary">
+                    <section class="activities">
+                        <section class="first-day">Friday</section>
+                        <section class="schedule">breakfast</section>
+                        <section class="schedule">lunch</section>
+                        <section class="schedule">dinner</section>
+                        <section class="schedule">snorkeling</section>
+                    </section>
+                </section>
     
-            <section class="recommended">
-                
-                <a class="recommended__anchor" href="/pages/hawaii.html">
-                    <div class="recommended__spot hawaii__pic">
-                        <p class="recommended__spot--color">friday</p>
-                    </div>
-                </a>
-                <a class="recommended__anchor" href="/pages/iceland.html">
-                    <div class="recommended__spot iceland__pic">
-                        <p class="recommended__spot--color">Saturday</p>
-                    </div>
-                </a>
-                <a class="recommended__anchor" href="/pages/greece.html">
-                    <div class="recommended__spot greece__pic">
-                        <p class="recommended__spot--color">Sunday</p>
-                    </div>
-                </a>
+                <section class="itinerary">
+                    <section class="activities">
+                        <section class="first-day">Saturday</section>
+                        <section class="schedule">breakfast</section>
+                        <section class="schedule">lunch</section>
+                        <section class="schedule">dinner</section>
+                        <section class="schedule">snorkeling</section>
+                    </section>
+                </section>
+    
+                <section class="itinerary">
+                    <section class="activities">
+                        <section class="first-day">Sunday</section>
+                        <section class="schedule">breakfast</section>
+                        <section class="schedule">lunch</section>
+                        <section class="schedule">dinner</section>
+                        <section class="schedule">snorkeling</section>
+                </section>
             </section>
-    </section>
-
-
+    </main>
     
     <footer class="foot">
     <section class="foot__contact">
             <h3 class="foot__section-title">Contact</h3>
                 <ul class="foot__contact-list">
                     <li class="foot__contact-info">email</li>
-                    <li class="foot__contact-info">info@travelsite.com</li>
+                    <li class="foot__contact-email">info@travelsite.com</li>
                 </ul>
         </section>
 

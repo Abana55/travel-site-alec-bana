@@ -5,33 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>travel-site-hawaii</title>
     <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" href="/css/destintation.css">
 </head>
 <body>
+<header>
     <nav class="navi">
         <a class="navi__link" href="/index.html"><h2 class="navi__title">Travel Site</h2></a>
         <ul class="navi__destinations">
-            <a href="/index.html"><li class="navi__destinations--li border-color">Home</li></a>
-            <a href="/pages/hawaii.html"><li class="navi__destinations--li">Hawaii</li></a>
-            <a href="/pages/iceland.html"><li class="navi__destinations--li">Iceland</li></a>
-            <a href="/pages/greece.html"><li class="navi__destinations--li">Greece</li></a>
+            <a class="navi__anchor" href="/index.html"><li class="navi__destinations--li">Home</li></a>
+            <a class="navi__anchor" href="/pages/hawaii.html"><li class="navi__destinations--li border-color">Hawaii</li></a>
+            <a class="navi__anchor" href="/pages/iceland.html"><li class="navi__destinations--li">Iceland</li></a>
+            <a class="navi__anchor" href="/pages/greece.html"><li class="navi__destinations--li">Greece</li></a>
         </div>
     </nav>
-    
-    <footer class="foot">
+</header>
+
+<main>
+    <section class="hawaii-bkg">
+        <h2 class="title__card">Hawaii</h2>
+        <section class="itinerary__cards">
+            <section class="itinerary">
+                <section class="activities">
+                    <section class="first-day">Friday</section>
+                    <section class="schedule">breakfast</section>
+                    <section class="schedule">lunch</section>
+                    <section class="schedule">dinner</section>
+                    <section class="schedule">snorkeling</section>
+                </section>
+            </section>
+
+            <section class="itinerary">
+                <section class="activities">
+                    <section class="first-day">Saturday</section>
+                    <section class="schedule">breakfast</section>
+                    <section class="schedule">lunch</section>
+                    <section class="schedule">dinner</section>
+                    <section class="schedule">snorkeling</section>
+                </section>
+            </section>
+
+            <section class="itinerary">
+                <section class="activities">
+                    <section class="first-day">Sunday</section>
+                    <section class="schedule">breakfast</section>
+                    <section class="schedule">lunch</section>
+                    <section class="schedule">dinner</section>
+                    <section class="schedule">snorkeling</section>
+            </section>
+        </section>
+</main>
+
+<footer class="foot">
         <section class="foot__contact">
             <h3 class="foot__section-title">Contact</h3>
                 <ul class="foot__contact-list">
                     <li class="foot__contact-info">email</li>
-                    <li class="foot__contact-info">info@travelsite.com</li>
+                    <li class="foot__contact-email">info@travelsite.com</li>
                 </ul>
         </section>
-       
-        
-
-
-
-
-
         <section>
         <h3 class="foot__section-title">Hours</h3>  
         <section class="foot__hours">
@@ -63,7 +94,7 @@
                 <img class="foot__img-size" src="/assets/Icons/icon-twitter.png">
         </section>
 
-    </footer>
+</footer>
     
 </body>
 </html>
