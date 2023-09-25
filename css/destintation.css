@@ -36,7 +36,7 @@
 .itinerary {
     background-color: white;
     width: 270px;
-    height: 384px;
+    height: 48vh;
     padding: 1.25rem;
     margin: 20px;
     border-radius: 5px;
@@ -53,11 +53,13 @@
 
 }
 .first-day {
-    border-bottom: 4px solid black;
+    border-bottom: 2px solid black;
+    list-style: none;
 }
 .schedule {
     background-color: #FEFAF5;
     border-radius: 4px;
     padding: 20px;
+    list-style: none;
 
 }

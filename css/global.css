@@ -4,18 +4,16 @@
     margin: 0;
     padding: 0;
 }
-nav {
-    display: flex;
-}
+
 .navi {
+    display: flex;
     background-color: #FFFFFF;
     flex-direction: row;
     align-items: center;
     height: 3.75rem;
     top: 0;
-    position: sticky;
+    position:sticky;
     width: 100%;
-    text-decoration: none;
 }
 
 .navi__title {
@@ -48,38 +46,25 @@ nav {
     border-bottom: .25rem solid #DB7A4E;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .foot {
     display: flex;
     justify-content: space-evenly;
     padding: 4rem 3rem;
     background-color: #FEFAF5;
 }
+
 .foot__section-title {
     color: #335576;
     font-size: 1.5rem;
     padding-bottom: 1.5rem;
 
 }
+
 .foot__contact {
    padding-left: 4rem;
    padding-right: 2rem;
 }
-/*.foot__contact-list {
-    
-}*/
+
 .foot__contact-info {
     list-style: none;
     color: #DB7A4E;
