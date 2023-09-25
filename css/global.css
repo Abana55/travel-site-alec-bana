@@ -50,15 +50,14 @@
 .foot {
     display: flex;
     justify-content: space-evenly;
-    padding: 4rem 3rem;
+    padding: 2rem 1.5rem;
     background-color: #FEFAF5;
 }
 
 .foot__section-title {
     color: #335576;
     font-size: 1.5rem;
-    padding-bottom: 1.5rem;
-
+    padding-bottom: 2rem;
 }
 
 .foot__contact {
@@ -77,10 +76,10 @@
     color: #335576;
 
 }
+
  .foot__hours {
     flex-direction: row;
     display: flex;
-
 }
 
 .foot__time--column {
@@ -88,25 +87,34 @@
     display: flex;
     
 }
+
 .foot__day-times {
     list-style: none;
 
 }
+
 .foot__dates {
     color:#DB7A4E;
     font-size: .6rem;
     padding-bottom: 1rem;
 }
+
 .foot__time--blue {
     color: #335576;
     padding-right: 1rem;
 } 
+
 .foot__social {
     color: #335576;
-
    
 }
+
 .foot__img-size {
     height: 1.5625rem;
-    padding-right: 12px;
+    padding-right: 3vh;
+
+}
+
+.foot__img-icon {
+    padding-top: 2.2vh;
 }
