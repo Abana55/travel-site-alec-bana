@@ -61,7 +61,8 @@
     background-color: white;
     width: 270px;
     height: 384px;
-    padding: 1.25rem;
+    background-clip: content-box;
+    padding: .2px;
     margin: 20px;
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 5px;
@@ -79,6 +80,7 @@
     font-size: 1.5rem;
     font-weight: 600;
     text-align: end,right;
+    padding: 15px;
 }
 .hawaii__pic {
     background-image: url(/assets/Images/hawaii.jpg);

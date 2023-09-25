@@ -12,7 +12,8 @@
     align-items: center;
     height: 3.75rem;
     top: 0;
-    position:sticky;
+    position:fixed;
+    z-index: 100;
     width: 100%;
 }
 
@@ -69,6 +70,7 @@
     list-style: none;
     color: #DB7A4E;
     padding-bottom: 8px;
+    font-size: 9.6px;
 }
 .foot__contact-email {
     list-style: none;
